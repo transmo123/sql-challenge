@@ -1,0 +1,9 @@
+
+SELECT
+employees.emp_no, last_name, first_name, sex, salary
+FROM
+employees
+JOIN 
+salaries ON salaries.emp_no = employees.emp_no
+
+  
