@@ -4,5 +4,5 @@ FROM departments
 JOIN dept_manager ON departments.dept_no = dept_manager.dept_no
 JOIN employees ON dept_manager.emp_no = employees.emp_no
 
-
+-- it seems this company has over 1200 employees per manager, red flag lol
 
